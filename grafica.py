@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Cargar ambos archivos
-df_cyk = pd.read_csv("/home/luanzy/Documentos/universidad/lenguajes/taller1-C2/comparacion/bison/datosbison.csv")
-df_bison = pd.read_csv("/home/luanzy/Documentos/universidad/lenguajes/taller1-C2/comparacion/codigoC/datoscyk.csv")
+df_cyk = pd.read_csv("/home/luanzy/Documentos/universidad/lenguajes/taller2-C2/codigoC/datoscyk.csv")
+df_bison = pd.read_csv("/home/luanzy/Documentos/universidad/lenguajes/taller2-C2/bison/datosbison.csv")
 
 df_bison["Longitud"] = df_bison["Cadena"].apply(len)
 df_cyk["Longitud"] = df_cyk["Cadena"].apply(len)
