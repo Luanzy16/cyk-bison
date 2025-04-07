@@ -1,5 +1,8 @@
 # Compilación y Ejecución de CYK en C y Bison
-
+ ## Integrantes
+ - Luis Sanchez
+ - Santiago Ospina
+ - David Bermudez
 ## Requisitos
 
 Asegúrate de tener instalados los siguientes paquetes en tu sistema:
